@@ -1,0 +1,13 @@
+.selectedText {
+  border-radius: 2px;
+}
+
+.nameTag {
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 3px;
+}

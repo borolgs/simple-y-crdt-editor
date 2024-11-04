@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+  <title>Y-CRDT textarea edtor</title>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>Editor</h1>
+
+    <div class="grid">
+      <div>
+        <article style="padding: 0px;">
+          <textarea id="editor"
+                    style="height:510px; margin: 0"></textarea>
+
+        </article>
+      </div>
+      <div>
+        <article>
+          <div id="chat"
+               style="height:400px; overflow: auto; display: flex; flex-direction: column-reverse;">
+          </div>
+          <input id="input"
+                 type="text"
+                 style="margin-bottom: 0; margin-top: 10px"
+                 placeholder="chat">
+        </article>
+      </div>
+    </div>
+
+  </main>
+  <script type="module"
+          src="/src/main.ts"></script>
+</body>
+
+</html>
