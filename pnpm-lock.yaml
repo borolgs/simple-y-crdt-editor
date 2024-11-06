@@ -8,6 +8,12 @@ dependencies:
   fast-diff:
     specifier: ^1.2.0
     version: 1.3.0
+  rectangle-overlap:
+    specifier: ^2.0.0
+    version: 2.0.0
+  textarea-caret:
+    specifier: ^3.1.0
+    version: 3.1.0
   y-websocket:
     specifier: ^2.0.4
     version: 2.0.4(yjs@13.6.20)
@@ -16,6 +22,9 @@ dependencies:
     version: 13.6.20
 
 devDependencies:
+  '@types/textarea-caret':
+    specifier: ^3.0.3
+    version: 3.0.3
   typescript:
     specifier: ~5.6.2
     version: 5.6.3
@@ -380,6 +389,10 @@ packages:
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
     dev: true
 
+  /@types/textarea-caret@3.0.3:
+    resolution: {integrity: sha512-bsA9GdXV1wQsXyDjS5+A+czz8IAR3haH5DU+KctIoXbzobRL2NOiwF/+EbB7pofAyudMytLj4ihPtbmbJT8FWw==}
+    dev: true
+
   /abstract-leveldown@6.2.3:
     resolution: {integrity: sha512-BsLm5vFMRUrrLeCcRc+G0t2qOaTzpoJQLOubq2XM72eNpjF5UdU5o/5NvlNhx95XHcAvcl8OMXr4mlg/fRgUXQ==}
     engines: {node: '>=6'}
@@ -691,6 +704,10 @@ packages:
     dev: false
     optional: true
 
+  /rectangle-overlap@2.0.0:
+    resolution: {integrity: sha512-00/A/rxSGQeK2P/qZ1uGIx9S5ihOFj+0l23mzonQzPqcOeKIxVLg900eiYc3lY8znZ8o1MFdnl7uEH24QtKz+g==}
+    dev: false
+
   /rollup@4.24.3:
     resolution: {integrity: sha512-HBW896xR5HGmoksbi3JBDtmVzWiPAYqp7wip50hjQ67JbDz61nyoMPdqu1DvVW9asYb2M65Z20ZHsyJCMqMyDg==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -737,6 +754,10 @@ packages:
       safe-buffer: 5.2.1
     dev: false
     optional: true
+
+  /textarea-caret@3.1.0:
+    resolution: {integrity: sha512-cXAvzO9pP5CGa6NKx0WYHl+8CHKZs8byMkt3PCJBCmq2a34YA9pO1NrQET5pzeqnBjBdToF5No4rrmkDUgQC2Q==}
+    dev: false
 
   /typescript@5.6.3:
     resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
